@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${title}"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<div class="conteiner mt-5 mb-5">
+    <h1>Добавленние имени</h1>
+    <form action="/main/add" method="post">
+        <input type="text" name="name" placeholder="Введите имя" class="form-control">
+        <button type="submit" class="bth bth-success">Добавить</button>
+    </form>
+
+</div>
+</body>
+</html>
